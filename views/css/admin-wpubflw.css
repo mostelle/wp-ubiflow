@@ -1,0 +1,500 @@
+#toplevel_page_wpubflw div.dashicons-admin-generic:before{
+    content: "\f513";
+}
+
+/*****************/
+/* fiche annonce */
+/*****************/
+/* photo pop up */
+#TB_ajaxContent .attachment-large.size-large{
+    height: auto;
+    max-width: 100%;
+}
+/* Details */
+body.post-type-annonce_immo #normal-sortables .postbox:last-child{
+    margin-right: 0%;
+}
+div#details-meta, div#diagnostic-meta {
+    width: 49%;
+    float: left;
+    clear: none;
+    margin-right: 1.6%;
+}
+div#details-meta li{
+	font-weight: bold;
+}
+div#details-meta li mark{
+    width: 150px;
+    display: inline-block;
+    padding: 5px;
+	font-weight: normal;
+    font-style: italic;
+    background-color: lightgrey;
+    text-align: right;
+    margin-right: 5px;
+}
+
+/* diagnostic */
+
+
+
+
+/*DPE*/
+.dpe {
+  font-family: sans-serif;
+  color: #555;
+  width: 300px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.dpe .title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.dpe .row {
+  overflow: hidden;
+}
+.dpe .information {
+  font-size: 0.8em;
+}
+.dpe .left {
+  float: left;
+}
+.dpe .right {
+  float: right;
+}
+.dpe .letters {
+  color: #000;
+  margin-top: 5px;
+}
+.dpe .letters > div {
+  overflow: hidden;
+  height: 25px;
+  margin-bottom: 0.4em;
+}
+.dpe .letters > div .line,
+.dpe .letters > div .sticker {
+  line-height: 25px;
+  height: 25px;
+  position: relative;
+}
+.dpe .letters > div .line {
+  position: relative;
+  padding-left: 0.5em;
+  float: left;
+}
+.dpe .letters > div .line em {
+  font-size: 0.8em;
+}
+.dpe .letters > div .line strong {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.dpe .letters > div .line::after {
+  content: " ";
+  display: block;
+  transform: rotate(-45deg);
+  transform-origin: bottom;
+  width: 19.2307692308px;
+  height: 19.2307692308px;
+  position: absolute;
+  right: -1.25em;
+  top: 0em;
+  z-index: 0;
+}
+.dpe .letters .sticker {
+  float: right;
+  width: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  display: none;
+}
+.dpe .letters .sticker::before {
+  content: " ";
+  display: block;
+  transform: rotate(-45deg);
+  transform-origin: bottom;
+  width: 19.2307692308px;
+  height: 19.2307692308px;
+  position: absolute;
+  left: -0.2em;
+  top: 0em;
+  z-index: 0;
+}
+.dpe .letter-a {
+  width: 100%;
+}
+.dpe .letter-a .line {
+  width: 15%;
+}
+.dpe .letter-a .line,
+.dpe .letter-a .line::after,
+.dpe .letter-a .sticker,
+.dpe .letter-a .sticker::before {
+  background-color: #329837;
+}
+.dpe.a .letter-a .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-b {
+  width: 100%;
+}
+.dpe .letter-b .line {
+  width: 20%;
+}
+.dpe .letter-b .line,
+.dpe .letter-b .line::after,
+.dpe .letter-b .sticker,
+.dpe .letter-b .sticker::before {
+  background-color: #57af37;
+}
+.dpe.b .letter-b .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-c {
+  width: 100%;
+}
+.dpe .letter-c .line {
+  width: 25%;
+}
+.dpe .letter-c .line,
+.dpe .letter-c .line::after,
+.dpe .letter-c .sticker,
+.dpe .letter-c .sticker::before {
+  background-color: #c6d300;
+}
+.dpe.c .letter-c .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-d {
+  width: 100%;
+}
+.dpe .letter-d .line {
+  width: 30%;
+}
+.dpe .letter-d .line,
+.dpe .letter-d .line::after,
+.dpe .letter-d .sticker,
+.dpe .letter-d .sticker::before {
+  background-color: #f2e500;
+}
+.dpe.d .letter-d .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-e {
+  width: 100%;
+}
+.dpe .letter-e .line {
+  width: 35%;
+}
+.dpe .letter-e .line,
+.dpe .letter-e .line::after,
+.dpe .letter-e .sticker,
+.dpe .letter-e .sticker::before {
+  background-color: #ffcb03;
+}
+.dpe.e .letter-e .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-f {
+  width: 100%;
+}
+.dpe .letter-f .line {
+  width: 40%;
+}
+.dpe .letter-f .line,
+.dpe .letter-f .line::after,
+.dpe .letter-f .sticker,
+.dpe .letter-f .sticker::before {
+  background-color: #f39739;
+}
+.dpe.f .letter-f .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-g {
+  width: 100%;
+}
+.dpe .letter-g .line {
+  width: 45%;
+}
+.dpe .letter-g .line,
+.dpe .letter-g .line::after,
+.dpe .letter-g .sticker,
+.dpe .letter-g .sticker::before {
+  background-color: #e4251f;
+}
+.dpe.g .letter-g .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.dpe .letter-g,
+.dpe .letter-g .sticker {
+  color: #fff;
+}
+
+
+
+
+
+/*GES*/
+.ges {
+  font-family: sans-serif;
+  color: #555;
+  width: 300px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.ges .title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.ges .row {
+  overflow: hidden;
+}
+.ges .information {
+  font-size: 0.8em;
+}
+.ges .left {
+  float: left;
+}
+.ges .right {
+  float: right;
+}
+.ges .letters {
+  color: #000;
+  margin-top: 5px;
+}
+.ges .letters > div {
+  overflow: hidden;
+  height: 25px;
+  margin-bottom: 0.4em;
+}
+.ges .letters > div .line,
+.ges .letters > div .sticker {
+  line-height: 25px;
+  height: 25px;
+  position: relative;
+}
+.ges .letters > div .line {
+  position: relative;
+  padding-left: 0.5em;
+  float: left;
+}
+.ges .letters > div .line em {
+  font-size: 0.8em;
+}
+.ges .letters > div .line strong {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.ges .letters > div .line::after {
+  content: " ";
+  display: block;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  right: -10px;
+  top: 0em;
+  z-index: 0;
+}
+.ges .letters .sticker {
+  float: right;
+  width: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  display: none;
+}
+.ges .letters .sticker::before {
+  content: " ";
+  display: block;
+  transform: rotate(-45deg);
+  transform-origin: bottom;
+  width: 19.2307692308px;
+  height: 19.2307692308px;
+  position: absolute;
+  left: -0.2em;
+  top: 0em;
+  z-index: 0;
+}
+.ges .letter-a {
+  width: 100%;
+}
+.ges .letter-a .line {
+  width: 15%;
+}
+.ges .letter-a .line,
+.ges .letter-a .line::after,
+.ges .letter-a .sticker,
+.ges .letter-a .sticker::before {
+  background-color: #f1dcfa;
+}
+.ges.a .letter-a .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-b {
+  width: 100%;
+}
+.ges .letter-b .line {
+  width: 20%;
+}
+.ges .letter-b .line,
+.ges .letter-b .line::after,
+.ges .letter-b .sticker,
+.ges .letter-b .sticker::before {
+  background-color: #f1dcfa;
+}
+.ges.b .letter-b .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-c {
+  width: 100%;
+}
+.ges .letter-c .line {
+  width: 25%;
+}
+.ges .letter-c .line,
+.ges .letter-c .line::after,
+.ges .letter-c .sticker,
+.ges .letter-c .sticker::before {
+  background-color: #f1dcfa;
+}
+.ges.c .letter-c .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-d {
+  width: 100%;
+}
+.ges .letter-d .line {
+  width: 30%;
+}
+.ges .letter-d .line,
+.ges .letter-d .line::after,
+.ges .letter-d .sticker,
+.ges .letter-d .sticker::before {
+  background-color: #c28ceb;
+}
+.ges.d .letter-d .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-e {
+  width: 100%;
+}
+.ges .letter-e .line {
+  width: 35%;
+}
+.ges .letter-e .line,
+.ges .letter-e .line::after,
+.ges .letter-e .sticker,
+.ges .letter-e .sticker::before {
+  background-color: #ae6de5;
+}
+.ges.e .letter-e .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-f {
+  width: 100%;
+}
+.ges .letter-f .line {
+  width: 40%;
+}
+.ges .letter-f .line,
+.ges .letter-f .line::after,
+.ges .letter-f .sticker,
+.ges .letter-f .sticker::before {
+  background-color: #9646e1;
+}
+.ges.f .letter-f .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-g {
+  width: 100%;
+}
+.ges .letter-g .line {
+  width: 45%;
+}
+.ges .letter-g .line,
+.ges .letter-g .line::after,
+.ges .letter-g .sticker,
+.ges .letter-g .sticker::before {
+  background-color: #7c2edb;
+}
+.ges.g .letter-g .sticker {
+  display: block; 
+  width: 40px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ges .letter-g,
+.ges .letter-g .sticker {
+  color: #fff;
+}
+
+
+
+
+/**************************/
+/* préférences WPUBIFLOW */
+/**************************/
+.import_flux_xml img {
+    max-width: 200px !important;
+}
+
+
+/********************/
+/* listes annonces */
+/********************/
+th#link_annonce{
+    width: 3%;
+}
